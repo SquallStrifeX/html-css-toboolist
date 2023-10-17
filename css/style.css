@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(191, 76, 76);
+    background-color: rgba(222, 222, 222, 0.056);
 
 }
 
@@ -61,4 +61,64 @@
     margin: 3px auto 0;
     height: 400px;
     width: 600px;
+}
+
+li {
+    background-color: white;
+}
+
+.list {
+    margin-left: 50px;
+    background-color: white;
+}
+
+.title {
+    background-color: white;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 20px;
+    list-style-type: none
+}
+
+.first-list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.containedcolored {
+    display: inline-block;
+    
+    border-radius: 10px;
+    border: 0px solid black;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.editorial {
+    background-color: skyblue;
+}
+
+.viola {
+    background-color: blueviolet;
+}
+
+.verde {
+    background-color: forestgreen;
+}
+
+.arancio {
+    background-color: chocolate;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.verdepis {
+    background-color: chartreuse;
 }
