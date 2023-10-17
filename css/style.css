@@ -1,25 +1,64 @@
-* { padding: 0;
+* { 
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(191, 76, 76);
 
 }
 
 .div-header {
-    margin-left: 15px;
     line-height: 2;
+    background-color: white;
+    margin-bottom: 40px;
 }
 
 #img-logo {
     vertical-align: middle;
+    background-color: white;
+
 }
 
 #toboolist {
     vertical-align: middle;
     font-size: 30px;
-    font-weight: bolder
+    font-weight: bolder;
+    background-color: white;
+
 }
 
-.container {
-    background-color: rgb(225, 225, 225);
-    height: 1000px;
+
+.container-button {
+    height: 40px;
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 991px;
+    border-radius: 3px;
+}
+
+#button1 {
+    background-color: rgb(30, 146, 255);
+    color: white;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+#button2 {
+    background-color: white;
+    color: rgb(191, 191, 191);
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.container-table {
+    background-color: white;
+    margin: 3px auto 0;
+    height: 400px;
+    width: 600px;
 }
