@@ -1,0 +1,25 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.div-header {
+    margin-left: 15px;
+    line-height: 2;
+}
+
+#img-logo {
+    vertical-align: middle;
+}
+
+#toboolist {
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bolder
+}
+
+.container {
+    background-color: rgb(225, 225, 225);
+    height: 1000px;
+}
